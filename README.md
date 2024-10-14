@@ -16,31 +16,31 @@ The company is particularly known for its ability to place large numbers of IT p
 short amount of time. They often work with businesses that are expanding rapidly and need to
 hire dozens or even hundreds of IT employees in a short period. TechWorks Consulting is able
 to handle these large-scale hiring projects with ease, thanks to its large database of candidates
-and experienced recruiting team.
+and experienced recruiting team. <br>
 TechWorks Consulting continues to set the standard for IT staffing and consulting. Businesses
 trust the company to provide them with the best IT talent in the industry, while IT professionals
 know that TechWorks Consulting is the best place to find the right job opportunity. The company
 is continuously expanding their services and domains to provide valuable services to their
 clients, making TechWorks Consulting one of the most sought-after consulting firms in the
-industry.
+industry.<br>
 One of the key factors in TechWorks Consulting's success is its ability to provide fair and
 competitive compensation to its employees. The company takes multiple factors into account
 when determining an employee's salary,including the employee's experience, qualifications, and
-performance.
+performance.<br>
 One important factor that TechWorks Consulting considers is the market rate for the specific job
 and skill set. The company has to make sure that the salary they offer is competitive with what
 other companies in the industry are offering for similar positions. This ensures that they are able
-to attract and retain top talent.
+to attract and retain top talent.<br>
 TechWorks Consulting also takes into account the specific skills and experience of the
 employee they are hiring. For example, an employee with more experience or specialized skills
 may be offered a higher salary than someone who is just starting out in the field.
 They also consider the current market trends and the cost of living of the area where the
 employee will be working. So the salary packages are not fixed, they are flexible with the market
-trends and adjust accordingly.
+trends and adjust accordingly.<br>
 Another important factor that TechWorks Consulting considers is the employee's performance.
 The company has performance evaluation systems in place to determine the employee's value
 and contributions to the company. The employee may be eligible for salary increases based on
-their performance and contributions.
+their performance and contributions.<br>
 In conclusion, TechWorks Consulting puts a lot of thought and effort into determining the salary
 of its employees. They take into account a variety of factors, including the market rate, the
 employee's experience and qualifications, and the employee's performance, to ensure that they
@@ -50,16 +50,18 @@ are offering competitive and fair compensation.
 
 ## Data
 
-You are given employee data [here]() as well as various other features that can be responsible for
-determining the employee's salary, such as the [college](https://github.com/ashita27/Techwork_Consulting/blob/main/Colleges.csv) an employee attends or the [city]() from
+You are given employee data [here](https://github.com/ashita27/Techwork_Consulting/blob/main/ML%20case%20Study.csv) as well as various other features that can be responsible for
+determining the employee's salary, such as the [college](https://github.com/ashita27/Techwork_Consulting/blob/main/Colleges.csv) an employee attends or the [city](https://github.com/ashita27/Techwork_Consulting/blob/main/cities.csv) from
 which the employee is coming, what the employee's previous CTC was, how much experience
 that employee has, and his academic record.
 The data contains 8 columns:
-College name: Colleges belong to three groups Tier1,Tier2 and Tier3 where tier1 college has
+#### College name: 
+Colleges belong to three groups Tier1,Tier2 and Tier3 where tier1 college has
 the highest weightage.
-City:It has 2 types of cities: metro and non metro cities convert this categorical data into
-numerical data such that 0 goes for non metro and 1 for metro cities.
-Role: Manager and Executive
+#### City: 
+It has 2 types of cities: metro and non metro cities convert this categorical data into
+numerical data such that 0 goes for non metro and 1 for metro cities. <br>
+#### Role: Manager and Executive
 And other columns Like: Previous CTC,Previous Job Change,Graduation marks, Experience in
 Months and CTC.
 
@@ -69,81 +71,85 @@ Months and CTC.
 
 
 Machine learning, specifically regression, can be useful for TechWorks Consulting in
-determining or predicting the salary of an employee.
+determining or predicting the salary of an employee. <br>
 Regression is a machine learning technique that can be used to predict a continuous value,
 such as salary. TechWorks Consulting can use historical data about past employees, such as
 their qualifications, experience, performance, and salary, to train a regression model. Once the
 model is trained, it can be used to predict the salary of new employees based on their
-qualifications, experience, and other relevant factors.
+qualifications, experience, and other relevant factors.<br> 
 The company can use a variety of features as inputs to the model such as education level, past
 job experience, certifications, location, etc. The model can then learn the relationship between
-these features and the salary of the employees.
+these features and the salary of the employees. <br>
 One benefit of using machine learning to predict employee salary is that it can help to ensure
 that compensation is consistent and fair across different employees. By using a regression
 model, the company can make data-driven decisions about salary, rather than relying on
-subjective judgments or estimates.
+subjective judgments or estimates. <br>
 Additionally, machine learning models are able to make predictions faster and more accurately
 than manual methods, especially with the increasing amount of data, this can help the company
-save time and make better predictions.
+save time and make better predictions. <br>
 It's worth mentioning that machine learning is a tool and its results are only as good as the data
 it is trained on and the features you provide to the model, so TechWorks Consulting should
 make sure that their historical data is reliable, diverse and complete to make the best
 predictions. Also, having experts in machine learning and statistics can help to fine-tune the
-model to better predictions.
+model to better predictions.<br>
 Statistics plays an important role in the field of machine learning, particularly in the development
-and evaluation of regression models.
+and evaluation of regression models.<br>
 In the process of developing a regression model for TechWorks Consulting, statisticians would
 first analyze the data to understand the distribution of the salary and other features. They would
 also investigate the correlation between different features and the target variable (salary) to
-understand which features are more important and relevant to the predictions.
+understand which features are more important and relevant to the predictions.<br>
 Next, they would use statistical techniques to select a subset of the most important features to
 use as inputs to the regression model. This can be done through feature selection or feature
-engineering methods such as Lasso, Ridge, PCA and many others.
+engineering methods such as Lasso, Ridge, PCA and many others. <br>
 Once the model is trained, statisticians would use statistical methods to evaluate its
 performance. One common method used in evaluating regression models is Mean Squared
 Error (MSE), which measures the average difference between the predicted salary and the
 actual salary. A lower MSE indicates that the model is making more accurate predictions. Other
-metrics like R-Squared and AIC can also be used to evaluate the model.
+metrics like R-Squared and AIC can also be used to evaluate the model.<br>
 Additionally, statisticians would also use statistical hypothesis testing to evaluate the
 significance of the model's coefficients and to make sure that the results are reliable and not just
-by chance.
+by chance. <br>
 In summary, statistics plays an important role in the process of developing and evaluating
 regression models for determining or predicting employee salary. TechWorks Consulting can
 benefit from having statisticians on their team to ensure that their models are accurate and
 reliable, and that the results are statistically significant.
 Another step which plays a significant role for predicting the salary of an employee using
-regression is data pre-processing.
+regression is data pre-processing. <br>
 Data preprocessing is an important step in the machine learning pipeline, particularly when
 developing regression models for determining or predicting employee salary at TechWorks
-Consulting.
+Consulting.<br>
 Data pre-processing involves cleaning and transforming the data to make it suitable for training
-a machine learning model. This can include tasks such as:
-● Handling missing values: Some data points may be missing, statisticians would need to
+a machine learning model. This can include tasks such as: <br>
+<ul>● Handling missing values: Some data points may be missing, statisticians would need to
 decide whether to remove the missing data or fill it in using techniques such as
-imputation.
-● Handling outliers: outliers can greatly affect the model predictions and statisticians would
+imputation. </ul>
+<ul>● Handling outliers: outliers can greatly affect the model predictions and statisticians would
 need to identify and either remove them or transform them in a way that they would not
-impact the model's performance.
-● Handling categorical variables: Many machine learning algorithms can only work with
+impact the model's performance. </ul>
+<ul>● Handling categorical variables: Many machine learning algorithms can only work with
 numerical data, so statisticians would need to convert categorical variables, such as
 education level, job titles, etc, into numerical values using techniques such as one-hot
-encoding.
-● Normalization: Scaling the values of different features to the same range so that one
-feature does not dominate the others
-● Feature selection: Choosing a subset of the most important features to use as inputs to
-the regression model
+encoding.</ul>
+<ul>● Normalization: Scaling the values of different features to the same range so that one
+feature does not dominate the others </ul>
+<ul>● Feature selection: Choosing a subset of the most important features to use as inputs to
+the regression model</ul> <br>
 Data pre-processing is an iterative process and statisticians may need to test different
 pre-processing techniques and combinations of techniques to find the best approach for the
-specific data set and problem at hand.
+specific data set and problem at hand. <br>
 By properly pre-processing the data, TechWorks Consulting can ensure that their regression
 model is trained on high-quality, accurate data and thus make more accurate predictions of
 employee salary. It can also prevent many issues that could arise later on such as overfitting,
 poor predictions and bias in the model.
-#Task:
+
+<hr>
+
+## Task:
+
 As a data analyst at TechWorks Consulting, you are given the task of creating a machine
 learning model which will help them in determining the salary of newly hired employees using
 the given data. You have to define your approach and then perform all the tasks required step by step to make
-the prediction, and then ultimately perform predictive analysis to predict the salary.
+the prediction, and then ultimately perform predictive analysis to predict the salary. <br>
 In data preparation you have to change the college field into numerical data type with the help of
 the tier of that college, similar thing you have to do with the city field and you also have to create
 dummy variables for “Role”. Try to find out the outliers and missing values and clean the data further and after the data is
