@@ -58,7 +58,9 @@ numerical data such that 0 goes for non metro and 1 for metro cities.
 Role: Manager and Executive
 And other columns Like: Previous CTC,Previous Job Change,Graduation marks, Experience in
 Months and CTC.
-#Regression task
+
+<hr>
+##Regression task
 Machine learning, specifically regression, can be useful for TechWorks Consulting in
 determining or predicting the salary of an employee.
 Regression is a machine learning technique that can be used to predict a continuous value,
