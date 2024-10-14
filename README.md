@@ -51,7 +51,7 @@ are offering competitive and fair compensation.
 ## Data
 
 You are given employee data [here]() as well as various other features that can be responsible for
-determining the employee's salary, such as the [college]() an employee attends or the [city]() from
+determining the employee's salary, such as the [college](https://github.com/ashita27/Techwork_Consulting/blob/main/Colleges.csv) an employee attends or the [city]() from
 which the employee is coming, what the employee's previous CTC was, how much experience
 that employee has, and his academic record.
 The data contains 8 columns:
